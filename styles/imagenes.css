@@ -1,0 +1,49 @@
+.img-responsive {
+    max-width: 100%; /* dimensión porcentual al padre */
+}
+
+.biselada {
+    border-radius: 25px;
+}
+
+.img-perfil {
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+    border: 14px solid crimson;
+}
+
+.filtro-byn {
+    filter: grayscale(100%);
+    transition: all 300ms ease-in-out;
+}
+
+.filtro-byn:hover {
+    filter: none;
+}
+
+/* ¿Qué formato empleamos en imágenes? */
+/* De manera MUY general */
+
+/* Figuras => svg
+
+Fotografía 
+Si tiene transparencia => png 
+Si no tiene transparencia => jpeg || png || gif */
+
+/* ¿¿¿Imagen como cursor??? */
+
+body {
+    cursor: url('../img/thumbs-up.svg'), auto;
+}
+
+
+
+
+
+
+
+
+
+
+

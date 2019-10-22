@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Textos en HTML y CSS</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Implementación de CSS desde un archivo externo -->
+    <link rel="stylesheet" href="./styles/textos.css">
+</head>
+<body>
+    <!-- Cabeceras -->
+    <h1 title="Título del artículo">Lorem...</h1>
+    <h1>Lorem ipusm <i>dolor</i></h1>
+    <h1>Lorem ipusm <span class="ligera">dolor</span></h1>
+    <h2>Lorem...</h2>
+    <h3>Lorem...</h3>
+    <h4>Lorem...</h4>
+    <h5>Lorem...</h5>
+    <h6>Lorem...</h6>
+    <!-- Párrafos -->
+    <p>Lorem ipsum dolor <b>sit amet</b> <i>consectetur</i>.</p>
+    <!-- Elemento span -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur esse natus quisquam, deserunt asperiores aut cum quibusdam minus <span class="destacado">amet eum nulla non excepturi</span> quia, necessitatibus blanditiis fuga soluta est dolore! Similique adipisci, quas, aliquid voluptate fugit excepturi voluptates quasi minima, saepe soluta eum temporibus. Quas aliquid aperiam vel earum illum inventore itaque fugiat, voluptatum, dolore asperiores nemo. Cupiditate fuga culpa ullam et accusantium quos explicabo error temporibus iusto dolores, soluta corporis voluptates optio labore voluptas ratione? Itaque modi exercitationem suscipit nostrum dignissimos maxime dolorem distinctio similique soluta, consectetur debitis, recusandae facilis, consequatur est doloremque. Eum nemo repellat asperiores quisquam veniam accusamus cum, quo voluptate quam ut nam sunt magnam impedit sed provident adipisci molestias esse ex architecto laborum ipsa nostrum? Tempore optio aperiam repellat suscipit necessitatibus iste deleniti placeat neque quidem, dolor praesentium fugit ad minus doloremque eos nesciunt cumque vel. Nisi placeat quo debitis nobis sit eaque iste cupiditate illo nulla doloremque, molestias quas similique, soluta, odio sequi asperiores perferendis amet vel distinctio. Voluptas reprehenderit vel in nihil quaerat, quae tempora temporibus libero inventore ea laudantium quidem, rem facilis vitae aliquid magni, tempore minus excepturi commodi. Quasi natus, ex suscipit quae vel eveniet ea quod quaerat quia dolore doloremque!</p>
+    <!-- Espacios en blanco y elemento br -->
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores deserunt minus sit perspiciatis in maxime labore atque quia reiciendis! Quas quidem adipisci pariatur modi quos nesciunt alias illum error optio, atque accusamus ducimus, aliquam deserunt sunt maiores saepe rerum corrupti cum, qui vero sapiente amet fugit est.
+       <br>
+        Magnam quos eos corporis architecto veritatis fuga dicta facere distinctio nesciunt rem natus delectus sunt excepturi velit, est possimus quae, aliquid necessitatibus ullam esse nihil nostrum. Magni voluptatum amet voluptatem ratione facilis nisi quibusdam, unde officiis, vel sequi fugit officia rerum, ducimus aliquam dolorem iste possimus dicta nulla id! At quos neque accusamus?
+    </p>
+    <br> <!-- muy mala práctica -->
+    <p>Lorem, ipsum dolor.</p> <!-- shift + alt + a --> 
+    ♥ <!-- shift + alt + Av.pag -->
+    😊 <!-- windows + . -->
+    <!-- Enlaces -->
+    <!-- Enlace a una url externa -->
+    <a href="https://www.marca.com/">Ir a marca.com</a>
+    <!-- Enlace a una url externa en nueva pestaña -->
+    <a href="https://www.marca.com/" target="_blank">Ir a marca.com</a>
+    <!-- Enlace a rutas internas -->
+    <a href="index.html">Volver a inicio</a>
+    <!-- Enlace a url con hash -->
+    <a href="legal.html#cookies">Ir a política de <i>cookies</i></a>
+    <!-- Enlaces a documentos para visualizar -->
+    <a href="docs/ejemplo_esp.pdf" target="_blank">Documentación en pdf</a>
+    <!-- Enlaces a documentos forzando descarga-->
+    <a href="docs/ejemplo_esp.pdf" download>Documentación en pdf</a>
+    <!-- Enlace a envío de correo electrónico -->
+    <a href="mailto:info@acme.com">info@acme.com</a>
+    <!-- Enlace a llamada de teléfono -->
+    <a href="tel:+34974500300">974 500 300</a>
+    <!-- Enlace a chat de Whatsapp (puede cambiar o puede haber cambiado) -->
+    <a href="https://wa.me/34666666666"
+       data-action="share/whatsapp/share">Chatea conmigo!</a>
+    <!-- Ejemplo de palabra larga -->
+    <h1 class="titulo">Esternocleidomastoideo</h1>
+    <!-- Alineación de textos -->
+    <p class="izdo minusculas">Lorem Ipsum...</p>
+    <p class="centrado mayusculas">lorem ipsum...</p>
+    <p class="dcho capitalizadas">lorem ipsum...</p>
+    <!-- Sombreado de textos -->
+    <h2 class="titulo-color">The Beatles</h2>
+    <!-- Pseudoelementos de texto -->
+    <p class="textos">En un lugar de la mancha Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, at eveniet! Earum molestiae, cum, voluptates ad, illum iure voluptatum explicabo maiores quas tempore ab impedit illo quisquam officiis recusandae quaerat ex neque perspiciatis. Aspernatur, ut. Vel expedita odio excepturi illum!</p>
+
+</body>
+</html>

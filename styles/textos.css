@@ -1,0 +1,98 @@
+/* Regla para fuentes propias */
+
+@font-face {
+    font-family: 'oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/oswald/Oswald-Regular.ttf');
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'oswald', sans-serif;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.destacado {
+    color: lightsalmon;
+}
+
+/* Propiedad peso de fuente con número */
+
+.ligera {
+    font-weight: 200;
+}
+
+/* Interlineado */
+
+p {
+    line-height: 1.5;
+}
+
+/* Rotura por letra */
+
+.titulo {
+    font-size: 4em;
+    word-wrap: break-word;
+}
+
+/* Alineación de textos */
+
+.izdo { text-align: left;}
+.centrado { text-align: center;}
+.dcho {text-align: right;}  /* justify */
+
+/* Transformación de textos */
+
+.minusculas {text-transform: lowercase;}
+.mayusculas {text-transform: uppercase;}
+.capitalizadas {text-transform: capitalize;}
+
+.titulo-color {
+    font-size: 4em;
+    color: white;
+    /* despl. hztal., despl. vert., difuminado, color */
+    text-shadow: 2px 2px 3px red,
+                 -2px -2px 3px green,
+                 -2px 2px 3px blue,
+                 2px -2px 3px yellow;
+
+}
+
+/* Pseudoelementos de texto */
+
+.textos::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    color: violet;
+}
+
+/* ::first-line para primer línea */
+
+.textos::selection {
+    background-color: pink;
+    color: white;
+}
+
+/* Enlaces */
+
+a {
+    text-decoration: none;
+    color: violet;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: orange;
+}
+
