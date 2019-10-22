@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./styles/formularios.css">
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+        <!-- Forma alternativa de enlazar label con input -->
+        <label>Apellidos
+            <input type="text">
+        </label>
+        <!-- Tipos de input -->
+        <!-- type="email" -->
+        <label for="pass">Contraseña</label>
+        <input type="password" id="pass">
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" min="0" max="120" step="1">
+        <label for="fecha-nac">Fecha de nacimiento</label>
+        <input type="date" min="1900-01-01" max="2020-01-01"> <!-- valor string yyyy-mm-dd -->
+        <input type="datetime-local">
+        <!-- type="month" type="week" type="time" -->
+        <!-- radiobotones -->
+        <p>Sexo</p>
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="hombre" value="hombre" name="sexo">
+        <label for="mujer">Mujer</label>
+        <input type="radio" id="mujer" value="mujer" name="sexo">
+        <label for="nc">Prefiero no indicarlo</label>
+        <input type="radio" id="nc" value="nc" name="sexo">
+        <!-- radiobotones con radio fake -->
+        <div class="radio-check">
+            <label>Boston Celtics
+                <input type="radio" name="nba" value="celtics">
+                <span class="check-mark green"></span>
+            </label>
+            <label>L.A. Lakers
+                <input type="radio" name="nba" value="lakers">
+                <span class="check-mark yellow"></span>
+            </label>
+        </div>
+
+
+
+
+    </form>
+</body>
+</html>

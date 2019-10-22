@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ejemplo de dimensiones em y rem */
+
+h1 {
+    color: orangered;
+    font-size: 2.5rem; /* Valor relativo al tamaño base de la fuente en html (elemento) */
+    padding: 1rem 0.5rem;
+}
+
+p {
+    color: grey;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius: 0.3em;
+    padding: 0.5em 1em;
+    font-size: 1.8em;  /* Valor relativo al tamaño base de la fuente del elemento */
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 90%;
+    }
+
+    button {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 440px) {
+
+    html {
+        font-size: 80%;
+    }
+
+    button {
+        font-size: 1em;
+    }
+}
+
+/* Ejemplo de uso de cal() */
+
+.banner {
+    background-color: peru;
+    height: 300px;
+    width: calc(100% - 2em);
+    margin: 1em;
+}

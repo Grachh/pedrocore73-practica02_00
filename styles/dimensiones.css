@@ -1,0 +1,44 @@
+/* Ejemplo de modelo de cajas */
+
+.modelo {
+    margin: 20px; /* margin-top,  margin-right, margin-bottom, margin-left
+    margin: 10px 20px; arriba y abajo | derecha e izda
+    margin: 10px 20px 20px; arriba | derecha e izda | abajo
+    margin: 10px 20px 20px 15px; arriba | derecha | abajo | izquierda */
+    padding: 10px; /* idem margin */
+    border: 2px solid orange; /* grosor tipo color
+    border-width
+    border-style
+    border-color */
+}
+
+/* Ejemplo de propiedades alto y ancho */
+
+.card {
+    height: 440px;
+    width: 360px;
+    box-shadow: 2px 2px 3px grey;
+    border-radius: 5px;
+}
+
+/* Ejemplo de dimensiones en porcentaje */
+
+.caja {
+    background-color: magenta;
+    width: 80%; /*  El % del ancho del padre */
+    height: 400px; /* Sólo cuando el padre tenga altura fija */
+}
+
+.caja-hija {
+    background-color: mediumaquamarine;
+    width: 50%;
+    height: 50%;
+}
+
+/* Ejemplo de uso de dimensiones viewport */
+
+.hero {
+    background-color: orange;
+    width: 100vw;
+    height: 100vh;
+}

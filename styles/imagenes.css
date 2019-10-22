@@ -31,10 +31,10 @@ Fotografía
 Si tiene transparencia => png 
 Si no tiene transparencia => jpeg || png || gif */
 
-/* ¿¿¿Imagen como cursor??? */
+/* Imagen como cursor */
 
 body {
-    cursor: url('../img/thumbs-up.svg'), auto;
+     cursor: url('../img/heart.svg'), auto;  /* extensión nativa .cur */
 }
 
 
