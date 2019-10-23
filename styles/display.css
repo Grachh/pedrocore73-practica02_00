@@ -1,0 +1,19 @@
+.card {
+    height: 440px;
+    background-color: lightsalmon;
+    width: 360px;
+    margin: 2em;
+    display: inline-block; /* El elemento pasa a ser en línea */
+}
+
+.card.oculta {
+    display: none;
+}
+
+.card.transparente {
+    opacity: 0.5; /* Rango entre 0 y 1 */
+}
+
+.card.invisible {
+    visibility: hidden;
+}

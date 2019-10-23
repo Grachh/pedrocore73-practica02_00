@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.uno {
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    position: relative; /* relativo a
+                        donde debería estar */
+    top: 100px;
+    left: 150px;                    
+}
+
+.dos {
+    background-color: orange;
+    height: 80px;
+    width: 140px;
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+}
+
+.tres {
+    background-color: crimson;
+    height: 150px;
+    width: 150px;
+    position: absolute; /* Absoluto al
+                        elemento que lo
+                        contiene */
+    top: 50px;
+    right: 100px;
+}
+
+.cuatro {
+    background-color: turquoise;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    position: absolute; /* El padre debe
+                        estar "posicionado" */
+    top: -15px;
+    right: -15px;
+}
+
+.cinco {
+    background-color: lightgray;
+    height: 50px;
+    width: 100%;
+    position: fixed; /* Siempre al body */
+    bottom: 0;
+    left: 0;
+}
