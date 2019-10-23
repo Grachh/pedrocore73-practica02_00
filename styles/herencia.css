@@ -1,0 +1,13 @@
+.padre {
+    color: blue; /* Propiedad color es heredable */
+    border: 2px solid green; /* Propiedad no heredable */
+}
+
+.hijo {
+    color: red; /* Sobreescribiendo la propiedad heredable*/
+    border: inherit; /* Heredar el valor del padre (si lo tiene) */
+}
+
+.nieto {
+    color: initial; /* Valor del user agent (navegador) */
+}

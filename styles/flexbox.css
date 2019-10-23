@@ -65,8 +65,9 @@
     height: 32px;
     width: 32px;
     border-radius: 25px;
-
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* .mensajes span {

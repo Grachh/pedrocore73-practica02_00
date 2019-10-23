@@ -1,0 +1,122 @@
+/* Selectores en CSS */
+
+/* Reglas At-rule */
+
+@media (max-width: 360px) {
+    /* Bloques Código CSS */
+}
+
+/* Selectores simples */
+
+/* Universal (Reseteo) */
+
+* {
+    /* Reglas se aplican a todos los elementos */
+}
+
+/* Selector por elemento */
+
+ul {
+    color: grey;
+}
+
+/* Selector por clase (.) punto */
+
+.nombredelaclase {
+    font-size: 16px;
+}
+
+/* Selector único por id (#) almohadilla */
+
+#nombredelid {
+    background-color: pink;
+}
+
+/* Selectores de atributo ([]) corchetes*/
+
+[type="checkbox"] {
+    width: 2em;
+}
+
+[tipo="hobbie"] {
+    color: blue;
+}
+
+[tipo="deporte"] {
+    color: orange;
+}
+
+/* Selectores pseudoclases (:) dos puntos */
+
+button:hover {
+    background-color: red;
+}
+
+/* Selectores pseudoelementos (::) doble dos puntos */
+
+.emoji::before {
+    content: '👌';
+}
+
+/* Combinación de selectores */
+
+/* Selectores unidos (en el mismo elemento)*/
+
+li {
+    font-size: 2em
+}
+
+li.destacado { /*no hay espacio entre los selectores*/
+    color: blue;
+}
+
+.destacado {
+    font-weight: bold;
+}
+
+/* Selectores descendientes (cualquier jerarquía de elementos) */
+
+.listas li { /* separados por espacio */
+    color: violet;
+}
+
+/* Selectores descendientes directos (padre-hijo) */
+
+.comentario > .titulo { /* símbolo mayor que */
+    color: green;
+}
+
+/* Hermanos en general */
+
+.primogenito ~ .hermano-normal { /* virgulilla altgr + 4 + espacio */
+    color: violet;
+}
+
+/* Hermano adyacente */
+
+.primogenito2 + .hermano-normal2 { /* símbolo + */
+    color: crimson;
+}
+
+/* Prevalencia de reglas CSS en caso de empate */
+
+/* Por la forma de implementación */
+
+/* 1.- El atributo style en el elemento
+2.- El elemento style
+3.- Un archivo CSS. */
+
+/* Por la especificidad */
+
+/* 1er dígito: número de estilos con atributo style;
+2o dígito: número de selectores id;
+3o dígito: número de clases o pseudo clases;
+4o dígito: número de elementos o pseudo elementos; */
+
+#cuatro.danger {
+    color: red;
+}
+
+p.texto {
+    color: green; /* !important */
+}
