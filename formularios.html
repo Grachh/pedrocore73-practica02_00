@@ -44,10 +44,36 @@
                 <span class="check-mark yellow"></span>
             </label>
         </div>
-
-
-
-
+        <!-- Inputs de tipo check -->
+        <label for="mayor-edad">Mayor de edad</label>
+        <input type="checkbox" id="mayor-edad" value="si">
+        <!-- Input color -->
+        <label for="color">Seleccione su color</label>
+        <input type="color" id="color" value="#008000">
+        <!-- Input de tipo file -->
+        <label for="archivo">Añada su archivo</label>
+        <input type="file" id="archivo" multiple accept=".pdf, .svg">
+        <!-- Select -->
+        <label for="deporte">Seleccione su deporte favorito</label>
+        <select id="deporte">
+            <option value="" selected>Seleccione un deporte</option>
+            <option value="f1">Fórmula 1</option>
+            <option value="motogp">Moto GP</option>
+            <option value="lanchas">Lanchas rápidas</option>
+        </select>
+        <!-- Input de tipo list -->
+        <label for="deporte2">Seleccione su deporte favorito</label>
+        <input type="list" id="deporte2" list="deportes">
+        <datalist id="deportes">
+            <option value="f1">Fórmula 1</option>
+            <option value="motogp">Moto GP</option>
+            <option value="lanchas">Lanchas rápidas</option>
+        </datalist>
+        <!-- text area -->
+        <label for="comentario">Deje aquí su comentario</label>
+        <textarea id="comentario" cols="30" rows="10"></textarea>
+        <!-- Input de tipo botón -->
+        <input type="button" value="Aceptar">
     </form>
 </body>
 </html>
